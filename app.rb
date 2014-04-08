@@ -13,5 +13,4 @@ puts "#{band.name} has cumulative sales of of #{band.total_sales} units"
 
 puts "#{band.name} is managed by #{band.agent} and signed with us on #{band.date_signed}"
 
-puts "Currently we have #{Band.bandCount} bands signed to our label"
-
+puts "Currently we have #{Band.band_count} bands signed to our label"
