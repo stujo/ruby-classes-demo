@@ -2,10 +2,10 @@ require_relative 'lib/band.rb'
 
 band = Band.new('Gorillaz', 'Billy Connelly', '2000-03-23')
 
-band.addRelease('Gorillaz', 2001, 1000001 )
-band.addRelease('Demon Days', 2005, 930430 )
-band.addRelease('Plastic Beach', 2010, 783211 )
-band.addRelease('The Fall', 2011, 8761232 )
+band.add_release('Gorillaz', 2001, 1000001 )
+band.add_release('Demon Days', 2005, 930430 )
+band.add_release('Plastic Beach', 2010, 783211 )
+band.add_release('The Fall', 2011, 8761232 )
 
 emailTitle = "Hi Fan! #{band} has a new release called #{band.latest_release.name}"
 
